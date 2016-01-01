@@ -1,6 +1,19 @@
 /*
 TODO APP
 */
+/**
+"this.props" can ref the React Component Attr Object
+"getInitialState" is default React method,which contains the state of React Component
+"{}" is used to write React Program
+**/
+
+/**
+how to bind event on DOM in React:
+
+<input onChange={this.onChange} value={this.state.text}>
+**/
+
+
 var ToDoList = React.createClass({
 	
 	render:function(){
